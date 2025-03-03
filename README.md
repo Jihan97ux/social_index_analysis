@@ -48,7 +48,17 @@ The main columns in the dataset include:
 
 ### 📊 3. Insight and Analysis
 #### **A. Identifying Potential Areas for Development (Sustainability Index)**
-- Calculating the Sustainability Index based on factors such as poverty, electricity access, and education
+- Calculating the Sustainability Index based on factors such as poverty, electricity access, water access and education
+
+  **Suistainability Index Formula:**
+  **Sustainability_Index = w1×(1−POVERTY) + w2×(1−NOELECTRIC) + w3×TAPWATER + w4×(1−LOWEDU) + w5×(1−ILLITERATE)**
+  where:
+  **𝑤1=0.3
+  𝑤2=0.2
+  𝑤3=0.2
+  𝑤4=0.15
+  𝑤5=0.15**
+  
 - Visualizing the development index across Indonesia using maps
 - Identifying provinces with the highest Sustainability Index as priority development areas
 
